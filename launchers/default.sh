@@ -16,6 +16,7 @@ dt-launchfile-init
 roscore &
 sleep 5
 dt-exec rosrun my_package my_publisher_node.py
+dt-exec rosrun my_package my_subscriber_node.py
 
 # ----------------------------------------------------------------------------
 # YOUR CODE ABOVE THIS LINE
